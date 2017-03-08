@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../img/background.png");
+    font-family: 'Lato', sans-serif;
+}
+
+.content{
+    width: 750px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+.logo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.balk{
+    background-color: darkred;
+    height: 50px;
+    width: 750px;
+}
+
+.menu{
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 12px;
+    background-color: transparent;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 50px;
+}
+
+.menu:hover {
+    background-color: #9b0000;
+    cursor: pointer;
+}
+
+.sent{
+    float: right;
+}
+
+.item1{
+    border-right: 5px solid #7b0000;
+    width: 145px;
+    height:50px;
+}
+
+.item1:hover{
+    border-right: 5px solid #9b0000;
+}
+
+.item2{
+    margin-left: -8px;
+    width: 150px;
+    height:50px;
+
+}
+
+#story{
+    background-color:rgba(255,255,255,0.75);
+    width: 750px;
+    height: 450px;
+}
+
+.footer{
+    display: block;
+    width: 750px;
+    background-color: #6e6e6e;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.footer p{
+    margin-left: 12px;
+}
+
+#panic{
+    padding-top: 15px;
+    margin-left: 15px;
+    width:675px;
+}
+
+#ignorance{
+    display: none;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.verhaaltje{
+    margin-left: 25px;
+    padding-top: 25px;
+    width: 725px;
+    height: 425px;
+}
+
+label{
+    float: left;
+    width: 385px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 38px;
+}
+
+form p{
+    clear: left;
+}
+
+input[type="text"]{
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+}
