@@ -1,18 +1,9 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Jelle
- * Date: 23-2-2017
- * Time: 09:05
- */
-?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <script src="js/script.js"></script>
     <title>MadLibs by JTW</title>
 
 </head>
@@ -53,12 +44,14 @@
                     <input type="text" name="money" placeholder="100.000 euro" /></p>
 
                     <p><label>Wat is je favorite bezigheid?</label>
-                    <input type="text" name="activity" placeholder="bezigheid" /></p>
-
-                    <label>&nbsp;</label>
-                    <input class="sent" type="submit" value="Versturen" />
+                    <input class="inbox" type="text" name="activity" placeholder="bezigheid" /></p>
+					
+					<label>&nbsp;</label>
+					<button class="sent" type="submit">Versturen</button>
                 </form>
         </div>
+		
+		
         <div id="ignorance" >
             <form method="post" action="money.php" autocomplete="off">
 
@@ -82,9 +75,8 @@
 
                 <p><label>Wat is het ergste wat je kan overkomen?</label>
                     <input type="text" name="zeven" placeholder="Overkomen"/></p>
-
-
-                <label>&nbsp;</label>
+				
+				<label>&nbsp;</label>              
                 <input class="sent" type="submit" value="Versturen" />
             </form>
         </div>
@@ -95,5 +87,7 @@
     <p>©Jelle Tempelman - 2017</p>
 </div>
 </body>
+	<script src="js/jquery.js"></script>
+	<script src='js/script.js'></script>
 </html>
 

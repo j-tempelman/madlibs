@@ -11,3 +11,12 @@ function ignorance(){
 }
 
 function back(){history.go(-1)}
+
+$(function () {
+    $('input,textarea').focus(function () {
+        $(this).data('placeholder', $(this).attr('placeholder'))
+               .attr('placeholder', '');
+    }).blur(function () {
+        $(this).attr('placeholder', $(this).data('placeholder'));
+    });
+});
